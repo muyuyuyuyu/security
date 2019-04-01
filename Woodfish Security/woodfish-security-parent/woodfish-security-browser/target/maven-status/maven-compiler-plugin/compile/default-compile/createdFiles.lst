@@ -1,0 +1,6 @@
+com\woodfish\security\config\authentication\WoodfishAuthenticationFailureHandler.class
+com\woodfish\security\config\authentication\WfAuthenticationSuccessHandler.class
+com\woodfish\security\config\service\WoodFishUserDetailService.class
+com\woodfish\security\config\config\WebMvcConfig.class
+com\woodfish\security\config\FormSecurityConfig.class
+com\woodfish\security\config\BrowserSecurityConfig.class

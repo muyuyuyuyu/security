@@ -1,0 +1,33 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.woodfish.security.properties.SecurityProperties",
+      "name": "woodfish.security",
+      "type": "com.woodfish.security.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.woodfish.security.properties.SecurityProperties",
+      "name": "woodfish.security.browser",
+      "type": "com.woodfish.security.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.woodfish.security.properties.SecurityProperties",
+      "name": "woodfish.security.code",
+      "description": "验证码的配置",
+      "type": "com.woodfish.security.validate.properties.ValidateCodeProperties"
+    },
+    {
+      "sourceType": "com.woodfish.security.properties.SecurityProperties",
+      "name": "woodfish.security.o-auth2-properties",
+      "type": "com.woodfish.security.authentication.properties.OAuth2Properties"
+    },
+    {
+      "sourceType": "com.woodfish.security.properties.SecurityProperties",
+      "name": "woodfish.security.social",
+      "type": "com.woodfish.security.social.properties.SocialProperties"
+    }
+  ]
+}

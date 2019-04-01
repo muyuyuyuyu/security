@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="woodfish-security-app" />
+        <module name="woodfish-security-browser" />
+        <module name="woodfish-security-core" />
+        <module name="woodfish-security-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="woodfish-security-app" target="1.8" />
+      <module name="woodfish-security-browser" target="1.8" />
+      <module name="woodfish-security-core" target="1.8" />
+      <module name="woodfish-security-demo" target="1.8" />
+      <module name="woodfish-security-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+com\woodfish\security\controller\UserController.class
+com\woodfish\security\aspect\TimeAspect.class
+com\woodfish\security\model\User.class
+com\woodfish\security\config\RedirectStrategyConfig.class
+com\woodfish\security\SecurityApplication.class

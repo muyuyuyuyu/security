@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Woodfish Security.iml" filepath="$PROJECT_DIR$/.idea/Woodfish Security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/woodfish-security-parent/woodfish-security-app/woodfish-security-app.iml" filepath="$PROJECT_DIR$/woodfish-security-parent/woodfish-security-app/woodfish-security-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/woodfish-security-parent/woodfish-security-browser/woodfish-security-browser.iml" filepath="$PROJECT_DIR$/woodfish-security-parent/woodfish-security-browser/woodfish-security-browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/woodfish-security-parent/woodfish-security-core/woodfish-security-core.iml" filepath="$PROJECT_DIR$/woodfish-security-parent/woodfish-security-core/woodfish-security-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/woodfish-security-parent/woodfish-security-demo/woodfish-security-demo.iml" filepath="$PROJECT_DIR$/woodfish-security-parent/woodfish-security-demo/woodfish-security-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/woodfish-security-parent/woodfish-security-parent.iml" filepath="$PROJECT_DIR$/woodfish-security-parent/woodfish-security-parent.iml" />
+    </modules>
+  </component>
+</project>

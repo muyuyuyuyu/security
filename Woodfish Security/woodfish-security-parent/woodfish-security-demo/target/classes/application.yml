@@ -1,0 +1,70 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: security-demo
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/bookstore?useSSL=false&characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+    # 数据源其他配置
+    initialSize: 5
+    maxActive: 20
+    maxIdle: 20
+    minIdle: 5
+    maxWait: 10000
+    validationQuery: SELECT 1 FROM DUAL
+    testOnBorrow: false
+    testOnReturn: false
+    testWhileIdle: true
+    poolPreparedStatements: true
+    timeBetweenEvictionRunsMillis: 6000
+    # 连接池在池中最小生存时间，单位是毫秒
+    minEvictableIdleTimeMillis: 30000
+    removeAbandoned: true
+    removeAbandonedTimeout: 1800
+    logAbandoned: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat,wall,slf4j
+    # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    # 合并多个DruidDataSource的监控数据
+    useGlobalDataSourceStat: true
+  session:
+    store-type: none
+#   放行静态文件 html文件之类的啊
+  mvc:
+    static-path-pattern: /**
+  redis:
+    host: 192.168.81.130
+    password: 123456
+
+# 跳转地址的配置
+woodfish:
+  security:
+    browser:
+      loginPage: /woodfish-login.html
+    social:
+      filterProcessesUrl: /auth
+      qq:
+        appId: 1106007238
+        appSecret: 8XyoB2MGbgMXKMDU
+        providerId: qq
+
+# 授权认证的密码和账号
+
+security:
+  oauth2:
+    client:
+      client-id: myid
+      client-secret: myid
+      registered-redirect-uri:
+        - http://example.com/
+        - http://ora.com/
+logging:
+  level:
+    org.springframework.security.oauth2.provider.endpoint: debug
